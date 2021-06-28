@@ -1,0 +1,16 @@
+.DS_Store
+.terraform/
+*.json
+*.hcl
+
+# configured automation
+create_vpc_with_terraform.sh
+
+# configured variables and states
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+
+#ssh key related
+vpcvsisamplekey
+vpcvsisamplekey.pub
