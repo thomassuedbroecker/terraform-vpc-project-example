@@ -43,7 +43,7 @@ terraform plan
 echo "*********************************"
 echo ""
 echo "Apply a the Terraform on IBM Cloud execution plan for the VPC infrastructure resources"
-terraform apply
+# terraform apply
 
 echo "*********************************"
 echo ""
@@ -66,4 +66,4 @@ read ANYKEY
 echo "*********************************"
 echo ""
 echo "Remove VPC infrastructure resources"
-# terraform destroy
+terraform destroy
