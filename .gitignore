@@ -4,12 +4,12 @@
 *.hcl
 
 # configured automation
-create_vpc_with_terraform.sh
+# create_vpc_with_terraform.sh
 
 # configured variables and states
 terraform.tfstate
 terraform.tfstate.backup
-terraform.tfvars
+#terraform.tfvars
 
 #ssh key related
 vpcvsisamplekey

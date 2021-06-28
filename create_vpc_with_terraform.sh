@@ -35,19 +35,19 @@ terraform init
 
 echo "*********************************"
 echo ""
-echo "Generate a Terraform on IBM Cloud execution plan for VPC infrastructure resources"
+echo "Generate a Terraform on IBM Cloud execution plan for the VPC infrastructure resources"
 terraform plan
 
 # **************** apply *************** 
 
 echo "*********************************"
 echo ""
-echo "Apply an Terraform on IBM Cloud execution plan for VPC infrastructure resources"
+echo "Apply a the Terraform on IBM Cloud execution plan for the VPC infrastructure resources"
 terraform apply
 
 echo "*********************************"
 echo ""
-echo "Verify the setup with the IBMCloud CLI"
+echo "Verify the setup with the IBM Cloud CLI"
 
 ibmcloud is vpcs
 ibmcloud is subnets
