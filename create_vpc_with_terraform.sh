@@ -51,7 +51,7 @@ echo "Verify the setup with the IBM Cloud CLI"
 
 ibmcloud is vpcs
 ibmcloud is subnets
-ibmcloud is security-group
+ibmcloud is security-groups
 ibmcloud is floating-ips
 ibmcloud is keys
 # ibmcloud is images
